@@ -27,7 +27,7 @@ ul {
   font-size: 30px;
   color: black;
   font-family: courier;
-  position: relative;
+  
   left: 80px;
 }
 
@@ -55,7 +55,7 @@ a {
   font-size: 30px;
   color: black;
   font-family: courier;
-  position: relative;
+  
   left: 80px;
 }
 
@@ -70,7 +70,7 @@ a {
   font-size: 30px;
   color: black;
   font-family: courier;
-  position: relative;
+
   left: 80px;
 }
 
@@ -108,7 +108,6 @@ html {
   background-color: whitesmoke;
   padding-top: 50px;
   width: 80%;
-  position: relative;
   left: 80px;
 }
 
