@@ -177,7 +177,7 @@ html {
 }
 .menu li a.home:before {
   content: "\f015";
-  font-size: 40px;
+  font-size: 50px;
 }
 .menu-bar li a:hover,
 .menu li a:hover,
