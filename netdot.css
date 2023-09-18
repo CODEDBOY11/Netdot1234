@@ -10,6 +10,7 @@
 
 html {
   text-align: center;
+  display: block;
 }
 
 ul {
@@ -24,22 +25,25 @@ ul {
   display: grid;
   word-spacing: 5px;
   text-indent: -2px;
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   font-family: courier;
-  
+  position: relative;
   left: 80px;
+  width: 90%;
 }
 
 a {
   text-decoration: none;
   color: tomato;
+  
 }
 
 .ett {
   background-color: grey;
   color: white;
-  width:100%;
+  padding-bottom: 100px;
+  width: 100%;
   
   
 }
@@ -47,17 +51,18 @@ a {
 .emm {
   background-color: whitesmoke;
   border: solid 0.05px #ccc;
-  width: 90%;
+  width: 100%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   margin: 10px;
   display: grid;
   word-spacing: 5px;
   text-indent: -2px;
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   font-family: courier;
-  
+  position: relative;
   left: 80px;
+  width: 90%;
 }
 
 .edd {
@@ -68,11 +73,12 @@ a {
   display: flex;
   word-spacing: 5px;
   text-indent: -2px;
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   font-family: courier;
-
+  position: relative;
   left: 80px;
+  width: 90%;
 }
 
 h1 {
@@ -109,6 +115,7 @@ html {
   background-color: whitesmoke;
   padding-top: 50px;
   width: 80%;
+  
   left: 80px;
 }
 
@@ -116,9 +123,7 @@ html {
   font-size: 20px;
   color: black;
   font-family: cursive;
-  left: 80px;
-
-
+  left:10px;
 }
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
