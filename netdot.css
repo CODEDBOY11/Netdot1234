@@ -1,0 +1,256 @@
+
+.Header {
+  color: red;
+  font-size: 90px;
+  font-family: 'Courier New';
+  font-style: italic;
+  text-shadow: 0 0 15px #ccc;
+  padding-bottom: 90px;
+}
+
+html {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+.ess {
+  border: solid 0.05px #ccc;
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  display: grid;
+  word-spacing: 5px;
+  text-indent: -2px;
+  font-size: 30px;
+  color: black;
+  font-family: courier;
+}
+
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.ett {
+  background-color: grey;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.emm {
+  background-color: whitesmoke;
+  border: solid 0.05px #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  display: grid;
+  word-spacing: 5px;
+  text-indent: -2px;
+  font-size: 30px;
+  color: black;
+  font-family: courier;
+}
+
+.edd {
+  background-color: whitesmoke;
+  border: solid 0.5px #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  display: flex;
+  word-spacing: 5px;
+  text-indent: -2px;
+  font-size: 30px;
+  color: black;
+  font-family: courier;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 50;
+  color: blueviolet;
+}
+
+.yyy {
+  width: 100%;
+  height: 30px;
+}
+
+.frr {
+  width: 100%;
+  height: 25px;
+  text-align: left;
+}
+
+html {
+  background-color: aliceblue;
+}
+
+.pta {
+  border: solid 0.5px #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  display: flex;
+  word-spacing: 5px;
+  text-indent: -2px;
+  font-size: 15px;
+  color: black;
+  font-family: fantasy;
+  background-color: whitesmoke;
+  padding-top: 50px;
+}
+
+.foods {
+  font-size: 20px;
+  color: black;
+  font-family: cursive;
+}
+
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+.menu, .menu-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    z-index:10;  
+    overflow:hidden;
+    box-shadow: 2px 0 18px rgba(0, 0, 0, 0.26);
+}
+.menu li a{
+  display: inline-block;
+  text-indent: -500em;
+  height: 5em;
+  width: 5em;
+  line-height: 5em;
+  text-align:center;
+  color: #72739f;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background 0.1s ease-in-out;
+}
+.menu li a:before {
+  font-family: FontAwesome;
+  speak: none;
+  text-indent: 0em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.4em;
+}
+.menu li a.search:before {
+  content: "\f001";
+}
+.menu li a.archive:before {
+  content: "\1F4F0";
+}
+.menu li a.pencil:before {
+  content: "\f008";
+}
+.menu li a.contact:before {
+  content: "\f003";
+}
+.menu li a.about:before {
+  content: "\f007";
+}
+.menu li a.home:before {
+  content: "\f015";
+}
+.menu-bar li a:hover,
+.menu li a:hover,
+.menu li:first-child a {
+  background: #267fdd;
+  color: #fff;
+}
+.menu-bar{
+    overflow:hidden;
+    left:5em;
+    z-index:5;
+    width:0;
+    height:0;
+    transition: all 0.1s ease-in-out;
+}
+.menu-bar li a{
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  text-align:center;
+  color: #72739f;
+  text-decoration:none;  
+  position: relative;
+  font-family:verdana;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background 0.1s ease-in-out;
+}
+.menu-bar li:first-child a{
+    height:5em;
+    background: #267fdd;
+    color: #fff;    
+    line-height:5
+}
+
+
+.para{
+    color:#033f72;
+    padding-left:100px;
+    font-size:3em;
+    margin-bottom:20px;
+}
+
+.open{
+    width:10em;
+    height:100%;
+}
+
+@media all and (max-width: 500px) {
+    .container{
+        margin-top:100px;
+    }
+    .menu{
+        height:5em;
+        width:100%;
+    }
+    .menu li{
+        display:inline-block;
+    }
+    .menu-bar li a{
+        width:100%;
+    }
+    .menu-bar{
+        width:100%;
+        left:0;
+      bottom: 0;
+        height:0;
+    }
+    .open{
+        width:100%;
+        height:auto;
+    }
+    .para{
+    padding-left:5px;
+}  
+}
+@media screen and (max-height: 34em){
+  .menu li,
+  .menu-bar {
+    font-size:70%;
+  }
+}
+@media screen and (max-height: 34em) and (max-width: 500px){
+  .menu{
+        height:3.5em;
+    }
+}
+.nav-content {
+  display: none; /* Hide the navigation menu by default */
+}
+
+.nav-content.active {
+  display: block; /* Display the navigation menu when it has the "active" class */
+}
