@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the heading */
+.heading {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style for the song title */
+h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the image */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  
+}
+
+/* Style for the paragraph */
+p {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.antihero{
+  border:solid 2px #555;
+  text-align:center;
+  background-colour:red;
+  margin:20px;
+}
+
+
+#searchResults a {
+            text-decoration: none; /* Remove underline */
+            color: #0077cc; /* Change link color */
+            font-weight: bold; /* Make the links bold */
+            margin-right: 10px; /* Add some spacing between links */
+        }
+.search{
+  width:80%;
+  height: 20px;
+}
+.Godzilla{
+  border:solid 2px #555;
+  text-align:center;
+  background-colour:red;
+  margin:20px;
+}
+.Dynamite{
+  border:solid 2px #555;
+  text-align:center;
+  background-colour:red;
+  margin:20px;
+}
+.ghost{
+  border:solid 2px #555;
+  text-align:center;
+  background-colour:red;
+  margin:20px;
+}
+.faded{
+  border:solid 2px #555;
+  text-align:center;
+  background-colour:red;
+  margin:20px;
+}
